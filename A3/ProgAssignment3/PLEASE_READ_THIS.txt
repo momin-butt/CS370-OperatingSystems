@@ -1,0 +1,25 @@
+Dear TAs,
+
+Kindly read this before you begin checking our assignment. 
+We have completed all three parts of the assignment but when we test them together, they don't work
+and instead give a Segmentation Fault without outputting anything. Therefore, to test our files, kindly follow this:
+
+To test part 1 and part 2:
+
+-> Kindly comment out the "getNum" and "test3" functions from the main.c file.
+-> Kindly also comment out those lines in the main function in main.c where "test3" is being called.
+-> By doing this, you will be able to test our part 1 and part 2 files without any hindrance.
+
+To test part 3:
+
+-> Kindly comment out the functions "test" and "test2" from the main.c file.
+-> Kindly also comment out those lines in the main function in main.c where "test_1_2" and "test2" are being called.
+-> By doing this, you will be able to test our part 3 without any hindrance.
+-> I have also attached a screenshot named 2.png in the assignment folder that shows the result of these steps.
+-> You can also check our output by commenting out line 174 in the main.c file.
+-> I have also attached a screenshot named 1.png that shows the output of our part 3.
+-> Our output is absolutely correct, as per the test3 file, but somehow it gives a Segmentation Fault at the very end and thus 
+   does not output anything when tested with other files. That's why we have to test it in this manner.
+
+
+Thank you!
